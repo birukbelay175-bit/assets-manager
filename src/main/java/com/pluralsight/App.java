@@ -30,5 +30,14 @@ public class App {
 
         System.out.println("VEHICLE INFO");
         System.out.println("Value: $" + vehicle.getValue());
+
+        Cash cash = new Cash(
+                "Emergency Cash",
+                "2024-01-01",
+                5000
+        );
+
+        System.out.println("CASH INFO");
+        System.out.println("Value: $" + cash.getValue());
     }
 }
